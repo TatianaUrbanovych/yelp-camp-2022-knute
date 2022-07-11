@@ -6,19 +6,18 @@
  </p>
 </a>
 
-YelpCamp - це вебсайт, за допомогою якого користувачі можуть створювати та коментувати локації для кемпінгу. Для створення або коментування необхідно мати аккаунт.
-Проект було створено використовуючи Node.js, Express, MongoDB, та Bootstrap. Для аутентифікації було використано Passport.js.
+<p><b>YelpCamp</b> is a website where users can create and comment on camping locations. You must have an account to create or comment. The project was created using Node.js, Express, MongoDB, and Bootstrap. Passport.js was used for authentication.</p>
 
-## Запустити локально
-1. Встановіть [mongodb](https://www.mongodb.com/)
-2. Створіть cloudinary аккаунт для того, щоб отримати API ключ та код
+## Run locally
+1. Install [mongodb](https://www.mongodb.com/)
+2. Create a cloudinary account to get an API key and code
 
 ```
 git clone https://github.com/TatianaUrbanovych/yelp-camp-2022-knute.git
 cd yelp-camp-2022-knute
 npm install
 ```
-## Створено за допомогою
+## Created with
 
 - [Node.js](https://nodejs.org) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 - [express](https://expressjs.com//) - Fast, unopinionated, minimalist web framework for Node.js
@@ -27,7 +26,7 @@ npm install
 - [Mongoose](https://mongoosejs.com/) - Elegant MongoDB object modeling for Node.js
 - [ejs](https://ejs.co/) - Embedded JavaScript templating
 
-Створіть новий .env файл у кореневій папці та додайте наступне:  
+<p>Create a new .env file in the root folder and add the following:</p>
 
 ```
 DATABASEURL='<url>'
@@ -35,8 +34,8 @@ API_KEY=''<key>
 API_SECRET='<secret>'
 ```
 
-Запустіть ```mongod``` в іншому терміналі та ```node app.js``` в терміналі з проектом.  
+Run ```mongod``` in another terminal and ```node app.js``` in the terminal with the project.
 
-Далі перейдіть до [localhost:3000](http://localhost:3000/).
+Then go to [localhost:3000](http://localhost:3000/).
 
-This project was part of Colt Steele's web dev course on udemy.  
+This project was part of Colt Steele's web dev course on udemy.
